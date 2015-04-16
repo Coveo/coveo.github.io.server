@@ -4,7 +4,7 @@
   "description": "Github query proxy",
   "main": "index.js",
   "scripts": {
-    "start" : "node index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Coveo/coveo.github.io.server",
   "dependencies": {
+    "cors": "^2.5.3",
     "express": "^4.12.3",
     "object-assign": "^2.0.0",
     "request": "^2.55.0"

@@ -1,5 +1,6 @@
 var express = require('express');
 var request = require('request');
+var cors = require('cors');
 var objectAssign = require('object-assign');
 var url = require('url');
 
@@ -83,6 +84,7 @@ function getData(){
 }
 
 var app = express();
+app.use(cors());
 
 app.get('/', function(req, res){
   res.send('Hello Coveo folks!');
