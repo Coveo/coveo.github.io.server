@@ -3,10 +3,8 @@ var request = require('request');
 var objectAssign = require('object-assign');
 var url = require('url');
 
-var GITHUB_CLIENT_ID = '16982c71696edc09f645';
-var GITHUB_CLIENT_SECRET = 'aba7a64522ca3ab5f667ae9bb111837f0f8ded99';
-
-// In-memory Stores
+var GITHUB_CLIENT_ID = process.env['GITHUB_CLIENT_ID'] || '16982c71696edc09f645';
+var GITHUB_CLIENT_SECRET = process.env['GITHUB_CLIENT_ID'] || 'aba7a64522ca3ab5f667ae9bb111837f0f8ded99';
 var GITHUB_USER = process.env['GITHUB_USER'] || 'coveo';
 
 function githubRequest(giturl){
