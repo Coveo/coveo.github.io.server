@@ -6,4 +6,6 @@ And because Github is apilimiting us to around 60 queries an hour (which isnt en
 
 # Dev
 
-Let's not live in the past, use es6
+- Let's not live in the past, use es6
+
+This server is deployed on a dokku host at [coveogithubioproxy.coveodemo.com](https://coveogithubioproxy.coveodemo.com)
