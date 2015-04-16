@@ -1,0 +1,25 @@
+{
+  "name": "coveo.github.io.server",
+  "version": "1.0.0",
+  "description": "Github query proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Coveo/coveo.github.io.server"
+  },
+  "author": "Pierre-Alexandre St-Jean",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Coveo/coveo.github.io.server/issues"
+  },
+  "homepage": "https://github.com/Coveo/coveo.github.io.server",
+  "dependencies": {
+    "express": "^4.12.3",
+    "object-assign": "^2.0.0",
+    "promise": "^7.0.0",
+    "request": "^2.55.0"
+  }
+}
