@@ -86,6 +86,8 @@ function getData(){
 var app = express();
 app.use(cors());
 
+app.options('*',cors())
+
 app.get('/', function(req, res){
   res.send('Hello Coveo folks!');
 });
